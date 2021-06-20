@@ -1,0 +1,592 @@
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;      
+    text-align: center;  
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Montserrat-bold';
+    
+}
+
+p{
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+
+}
+
+/* .section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+} */
+.container-fluid{
+    padding: 0;
+    opacity:0.8 ;
+    z-index: 2;
+  
+}
+
+.colored-section{
+    background-color: #000;
+    color: white;   
+}
+
+.white-section{
+    background-color: white;    
+    background-color:transparent;
+    color: #000;
+}
+
+.brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgba(36, 240, 0, 0.623);
+   
+    
+}
+.navbar{
+    padding: 0 2%;
+    z-index: 2;
+}
+
+.nav-item{
+    padding: 12px 18px;
+   
+   
+
+}
+.nav-l{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:rgb(158, 158, 158);
+    
+  
+}
+.nav-l:hover{
+    color: whitesmoke;
+    opacity: 1;
+}
+
+.navbar-nav{
+    z-index: 2;
+}
+
+
+#title .container-fluid{
+    
+    text-align: left;
+    z-index: 2;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+}
+#video{
+    display: block;
+    position: relative;
+    top: 0;
+    z-index: -1;
+}
+
+#sound-off,#sound-on {
+    cursor: pointer;
+    z-index: 0;
+    font-size: 2rem;
+    background: none;
+    color: rgb(253, 253, 253) ;
+    position: relative;
+    top:-55px ;
+    
+    border: none;
+}
+.offcanvas{
+    background-color: rgb(65, 65, 65);
+    text-align: center;
+}
+.offcanvas-title{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin: 5%;
+    padding: 2% 5%;
+    border: rgb(29, 29, 29) 2px solid;
+    border-radius: 20px;
+    
+}
+.offcanvas h3{
+    margin: 15px auto 0 ;
+
+}
+.offcanvas a:hover{    
+    transform: scale(1.3);
+    transition-timing-function: ease-in-out;
+
+}
+
+.off-img{
+    width: 15%;
+    height: 3rem;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    margin-right:10% ;
+}
+.off-div{
+    display: flex;
+    margin: 5%;
+    position: relative;
+}
+/* Track */
+
+#myAudio{
+    box-shadow: 0 3px 4px 1px #DBEDF3;   
+    background-color: #f1f1f1;
+    margin: 0 auto;
+}
+
+audio::-webkit-media-controls-play-button {
+    
+    background-color: rgb(5, 49, 0);
+    border-radius: 50%;
+}
+audio::-webkit-media-controls-time-remaining-display{
+    display: none;
+}
+.trackImg{
+    width: 20%;
+    height: 100px;
+    margin-top:5%;
+}
+.trackH{
+    margin-top: 15%;
+    opacity: 1;
+    color: rgb(5, 5, 5);
+}
+
+#features{
+    
+    position: relative;
+    margin:2% auto;
+    z-index: 0;
+
+    
+}
+.container-fluid-f{
+    padding: 2% 15% ;
+
+}
+.feature-title{
+    line-height: 1.5rem;
+}
+
+.feature-box{
+    font-size: 20px;
+    padding: 5%;
+}
+
+.icon{
+    color:#252525;
+    margin-bottom: 20%;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.icon:hover{
+    color: rgb(0, 37, 6);
+    transform: rotate(15deg);    
+    
+}
+
+
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    margin-bottom: 60%;
+} 
+
+.card{
+    border: 0;
+}
+
+.social-icon{
+    color: rgb(255, 255, 255);
+    margin: 10px 20px ;
+    font-size:20px;
+
+}
+.social-icon:hover{
+    color: #9e9e9e; 
+}
+
+.download-btn{
+    text-align: center;
+    width: 25%;
+    margin: 10% ;
+    padding: 10px;
+}
+
+
+
+#footer{
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(2,45,16,1) 50%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%);  margin: 0 auto;
+    text-align: center;
+    margin:0 auto ;
+    padding:3% 5%;
+    
+}
+#footer p {
+    margin: 2%; 
+}
+.break{
+    margin: 2% auto;
+    height:3px;
+    width: 100%;
+    background-color:rgb(2, 245, 43);
+    border-radius: 50%;
+}
+.social-icon-footer{
+    margin: 0 auto;
+    width: 50%;
+}
+
+#arrow{
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+    position: relative;
+    transition-timing-function: ease-out;
+
+}
+
+/* about */
+
+.about{
+    margin:0 auto;
+}
+
+
+.top-image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+.about-header{
+    display: inline-block;
+    margin: 12%;
+    padding:0 15%;
+}
+
+.aboutend{
+    position: relative;
+    margin: 200px auto;
+    width: 70%;
+    text-align: left;
+    line-height: 2;
+}
+
+.aboutend h3{
+    text-decoration:underline double rgb(5, 160, 31) ;
+}
+
+#missionIMG{
+    width: 30%;
+    border-radius: 50%;
+    float: left;    
+    margin-right: 20px;
+    height: 250px;
+    
+}
+
+#visionIMG{
+    width: 30%;
+    border-radius: 50%;  
+    float: right;
+    margin-left: 20px;
+    height: 250px;
+}
+
+.Gallery{
+    padding: 20%;
+   
+}
+.Gimg{
+    z-index: 1;
+}
+#Image-Gallery{
+    margin-bottom: 15%;
+    
+}
+/* contact */
+
+.form{
+    height: 1000px;
+}
+.top {
+
+    margin:50px 0 -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+   
+}
+  .middle, .bottom{
+      border-radius: 0;
+      margin-bottom: -1px;
+    
+  
+  
+ }
+  
+.message{
+    margin-bottom: 50px;
+
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.contact-heading , .contact-details{
+    margin: 5% auto;
+    padding: 5%;
+    text-align: center;
+}
+
+#cnt-btn{
+    cursor: pointer;
+    z-index: 1;
+}
+
+#email-add{
+    position: relative;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#email-add:hover{
+    color: rgb(113, 113, 250);
+    text-decoration: underline;
+}
+
+.map{
+    padding: 0;
+}
+
+.div-form{
+    padding: 5%;
+    background-color: rgb(151, 236, 163);
+    border-radius: 3%;
+}
+/* Image Gallery */
+
+
+.img{
+    background-size: cover;
+    width:auto;
+    height: 100%;
+}
+
+/* Drum */
+ 
+#drumTitle {
+    font-size: 5rem;
+    color: #000000;
+    font-family:'Montserrat-bold';
+    text-shadow: 3px 0 #000000;
+    margin:5%;
+}
+  
+  
+.w {
+ background-image: url(/Images//Drums/tom4.png);   
+ background-size: cover;
+ z-index:2;
+ 
+
+}
+   
+.a {
+  background-image: url(/Images//Drums/tom3.png);
+  background-size: cover;
+}
+  
+.s {
+    background-image: url(/Images//Drums/tom2.png);
+    background-size: cover;
+}
+  
+.d {
+  background-image: url(/Images//Drums/tom1.png);
+  background-size: cover;
+}
+  
+.j {
+  background-image: url(/Images/Drums/snare.png);
+  background-size: cover;
+  background-position-y: 20px;
+  background-repeat: no-repeat
+}
+  
+.k {
+  background-image: url(/Images/Drums/kick.png);
+  background-size: cover;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+}
+  
+
+.l{
+    background-image: url(/Images/Drums/crash.png);
+    background-size: cover;
+    background-position-y: 20px;
+    background-repeat: no-repeat;
+
+  
+}
+.set {
+    margin:0 auto;
+    padding: 10% 0;
+    background-image: url(/Images/Drums.jpg);
+    background-size: cover;
+    
+  }
+  
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+
+.drum {
+    outline: none; 
+    border: 5px solid #353535;
+    font-size: 3rem;
+    font-family:'Montserrat-bold';
+    line-height: 1;
+    font-weight: 900;
+    color: #070606;
+    text-shadow: 3px 0 20px #000000;
+    border-radius: 15px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*Ear Tranning  */
+
+#earIns{
+    margin-top: 20%;
+    color:darkgreen;
+   
+
+}
+
+#earTitle{
+    margin: 0 auto 30px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#earTitle:hover{
+    color: green;
+}
+
+#ear{
+    background-image: url(/Images/Keys.jpg);
+}
+
+.earIMG{
+    margin-top: 25%;
+}
+
+.earBtn{
+    color: #000;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 2rem;
+    margin: 2% ;
+    border: black 5px solid;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.earBtn:hover{
+    color: rgb(148, 148, 148);
+    transform: scale(1.3);
+    transition-timing-function: ease-in-out;
+}
+
+
+#buttonSection{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.pressed{
+    background-color: gray;
+    opacity: 0.5;
+    box-shadow:0 0 40px  5px  cornsilk ;
+}
+
+
+#listenAgain{
+    margin-bottom: 10%;
+    cursor: pointer;
+    color: green;
+    font-size: 3rem;
+}
+ 
+@media(max-width:1250px){
+#title{
+    text-align: center;
+}
+.download-btn{
+    text-align: center;
+    width: 80%;
+    margin: 10% ;
+    padding: 10px;
+}
+.aboutend{
+    position: relative;
+    margin: 50px auto;
+    width: 60%;
+    line-height: 1;
+    text-align: center;
+
+}
+#missionIMG,#visionIMG{
+    float: unset;
+    width: 50%;    
+    margin: 10px auto;
+    height: auto;
+    
+}
+
+.aboutend p{
+    padding: 10%;
+}
+
+
+}
+
